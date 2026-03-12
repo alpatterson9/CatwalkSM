@@ -4,6 +4,6 @@ Catwalk is a social media platform for WCU students currently in development. Cu
 
 ### Usage
 
-First, ensure you have node.js installed on your machine. To avoid permissions conflicts and save space in the repository, the ```node_modules``` folder has not been commited. Because of this, you must first make sure you are in the ```CatwalkSM``` directory, then run ```npm install``` in the command line. Repeat this with ```Catwalk``` After this, the ```node_modules``` folder should be created locally.
+First, ensure you have node.js and podman installed on your machine. To avoid permissions conflicts and save space in the repository, the ```node_modules``` folder has not been commited. Because of this, you must first make sure you are in the ```CatwalkSM``` directory, then run ```npm install``` in the command line. Repeat this with ```Catwalk``` and ```server```. After this, the ```node_modules``` folder should be created locally.
 
-After doing this run ```npm run dev``` in the terminal to initialize Vite and React. Your terminal should then contain a link to a locally hosted version of our web application.
+After doing this, start the db containers with the provided shell script followed by starting the express script.
