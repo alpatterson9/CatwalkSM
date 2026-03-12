@@ -1,0 +1,156 @@
+.requestDiv {
+    background-color: white;
+    border-radius: 12px;
+    padding: 12px 16px;
+    margin: 8px 0;
+    box-shadow: 0 2px 8px rgba(89, 44, 136, 0.15);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.requestDiv:hover {
+    box-shadow: 0 4px 12px rgba(89, 44, 136, 0.25);
+    transform: translateY(-1px);
+}
+
+.friendsListDiv {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    width: 280px;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    max-height: calc(100vh - 200px);
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 100px;
+    align-self: flex-start;
+    overflow-y: auto;
+}
+
+.friendsListDiv h1 {
+    font-size: 20px;
+    color: #592C88;
+    margin: 0 0 16px 0;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #e0d4eb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.postHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profilePictureXS {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    flex-shrink: 0;
+    border: 2px solid #e0d4eb;
+}
+
+.profilePictureSmall {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.profilePictureLarge {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.postUsername {
+    font-size: 16px;
+    font-weight: bold;
+    color: dimgray;
+    cursor: pointer;
+}
+
+.postImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.postText {
+    font-size: 14px;
+    color: dimgray;
+    line-height: 1.6;
+    margin: 10px 0;
+    word-wrap: break-word;
+}
+
+.commentUsername {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+    flex-grow: 1;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.commentUsername:hover {
+    color: #592C88;
+}
+
+.transparentButtonSmall {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    padding: 6px 12px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 2px solid #592C88;
+    color: #592C88;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+.transparentButtonSmall:hover {
+    background-color: #592C88;
+    color: white;
+}
+
+.friendsSectionHeader {
+    font-size: 14px;
+    font-weight: 600;
+    color: #592C88;
+    margin: 16px 0 8px 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e0d4eb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.friendsSectionHeader:first-child {
+    margin-top: 0;
+}

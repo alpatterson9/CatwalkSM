@@ -1,0 +1,15 @@
+FROM node:20-alpine
+
+WORKDIR /app
+
+# get all of our node modules in the image
+COPY package*.json ./
+RUN npm ci
+
+COPY . .
+
+#expose port 3000 (basically like port forwarding I think)
+EXPOSE 3000
+
+# run it like a terminal
+CMD ["node", "router.js"]
