@@ -1,6 +1,6 @@
 # Catwalk
 
-Catwalk is a social media platform for WCU students currently in development. Currently, users are allowed to make accounts, make posts, comment, 'like' a post, add a friend, navigate around profiles, and customize their bio.
+Catwalk is a social media platform currently in development. Currently, users are allowed to make accounts, make posts, comment, 'like' a post, add a friend, navigate around profiles, and customize their bio.
 
 ### Usage
 
